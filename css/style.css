@@ -131,3 +131,9 @@ li a {
     line-height: 2em;
     padding:0;
 }
+.submit{
+    background-color: #4aaaa5;
+    color: #eee;
+    padding:10px;
+    margin-top: 10px;
+}
