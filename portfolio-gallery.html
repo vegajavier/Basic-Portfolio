@@ -1,90 +1,66 @@
-<!DOCTYPE>
-</html lang="en">
+<!doctype html>
+<html lang="en-us">
 
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Basic-Porfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="css\reset.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="css\style.css">
-        <script src="main.js"></script>
-</head> 
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio | Javier Vega</title>
+  <link rel+"stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
 
-    <body>
-        
-            <nav class="links">
-                    <ul>
-                        <li>
-                            <a href='index.html'>About</a>
-                        </li>
-                        <li>
-                            <a href='portfolio-gallery.html'>Portfolio</a>
-                        </li>
-                        <li>
-                            <a href='portfolio-contact.html'>Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-        <br>
-        <header>
-            <hgroup><h1>Javier Vega</h1>
-        </header>
-        <div class="portfolio-container">
-            <h2>Portfolio</h2>
-            <hr>
-        <div style ="display:inline-block">
-            <div style="position:relative; top: 20px; left:30px">
-                <div>
-                    <a href="https://anchor.fm/from-the-seats-podcast">
-                        <img class= "ftsimage" width="200" height="150" alt="pod" src="https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/825788/825788-1533241245541-08031e6ecb084.jpg">
-                    </a>
-                    <div class="label">
-                        Click Me It Works
-                    </div>
-                </div>
-            </div>
-            <div style="position:relative; top: 45px; left:30px">
-                <div>
-                    <img src="images/GOAT.jpg" class ="ftsimage" width="200" height="150" alt=pod>
-                    <div class="label">
-                        G.O.A.T
-                    </div>
-                </div>
-            </div>
-            <div style="position:relative; top: 60px; left:30px">
-                <div>
-                    <img src="images/DJ2K.jpg" class ="ftsimage" width="200" height="150" alt=pod>
-                        <div class="label">
-                            DJ3K
-                        </div>
-                </div>
-            </div>
-        </div>
-        
-        <div style ="display:inline-block; vertical-align:top;">
-            <div style="position:relative; top: 20px; left:65px">
-                <div>
-                    <img src= "images/Michael-Jordan-1988-Dunk-Contest-30th-Anniversary.jpg" class="ftsimage" width="200" height"300" alt=pod>
-                        <div class="label">
-                            MJ IS BETTER THAN LBJ
-                        </div>
-                </div>
-            </div>
-            <div style="position:relative; top: 65px; left:65px">
-                <div>
-                    <img src="images/we-are-penn-state.png" class="ftsimage" width="200" height"300" alt=pod>
-                        <div class="label">
-                            WE ARE
-                        </div>
-                </div>
-            </div>
-        </div>
-        <div class= "closer">
-            <footer class="footer">
-                <h6>Copyright</h6>
-            </footer>
-        </div>
-    </body>
-    
-<html> 
+<body>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio-gallery.html">Portfolio</a>
+        <a href="portfolio-contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+
+      <div class="work">
+            <a href="https://anchor.fm/from-the-seats-podcast">
+                <img class= "ftsimage" width="200" height="150" alt="pod" src="https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/825788/825788-1533241245541-08031e6ecb084.jpg">
+            </a>
+            <h3>From The Seats</h3>
+      </div>
+      <div class="work">
+        <img src="images/GOAT.jpg" alt="G.O.A.T">
+
+        <h3>G.O.A.T</h3>
+      </div>
+      <div class="work">
+        <img src="images/Michael-Jordan-1988-Dunk-Contest-30th-Anniversary.jpg" alt="MJ>>LBJ">
+
+        <h3>MJ>>LBJ</h3>
+      </div>
+      <div class="work">
+        <img src="images/dj3k.jpg" alt="DJ3K">
+
+        <h3>DJ3K</h3>
+      </div>
+      <div class="work">
+        <img src="images/we-are-penn-state.png" alt="WE ARE">
+
+        <h3>WE ARE</h3>
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
+
+</html>
